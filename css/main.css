@@ -1,3 +1,5 @@
+/* I have to figure out how to scale this appropiately */
+
 @font-face { font-family: Sailec; src: url('../fonts/sailec.otf'); } 
 
 body {
@@ -6,7 +8,8 @@ body {
 }
 
 .left-small-screen {
-    padding: 35px 50px;
+    width: 350px; /* temporary */
+    padding: 35px 50px; /* temporary */
     font-family: Sailec;
 }
 
@@ -18,10 +21,10 @@ body {
     font-size: 15px;
 }
 
-hr {
-    border-color: #6d767e;
-    width: 300px;
-    margin: 0;
+#interests {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #6d767e; /* temporary */
+    width: 70%;
 }
 
 ul {
@@ -29,7 +32,7 @@ ul {
     padding: 0;
 }
 
-p, li {
+p, li, a {
     color: #6d767e;
     font-size: 14px;
     line-height: 1.5;
@@ -52,4 +55,8 @@ strong, .simple-link {
 
 .simple-link:hover {
     border-bottom: 1px solid rgba(204, 199, 197, 1);
+}
+
+.left-small-screen-footer-icons a {
+    padding-right: 7.5px;
 }
