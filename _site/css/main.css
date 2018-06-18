@@ -5,26 +5,29 @@
 body {
     margin: 0;
     background-color: #222120;
+    text-align: center;
 }
 
 .left-small-screen {
-    width: 350px; /* temporary */
-    padding: 35px 50px; /* temporary */
+    padding: 35px 25px;
     font-family: Sailec;
-}
-
-.background {
-    background-color: #222120;
+    text-align: left;
+    display: inline-block;
 }
 
 #name {
     font-size: 15px;
 }
 
-#interests {
-    padding-bottom: 10px;
-    border-bottom: 1px solid #6d767e; /* temporary */
-    width: 70%;
+#projects {
+    text-decoration: underline;
+}
+
+hr {
+    color: #6d767e;
+    border-color: #6d767e;
+    width: 87.5%;
+    margin: 0;
 }
 
 ul {
@@ -60,3 +63,8 @@ strong, .simple-link {
 .left-small-screen-footer-icons a {
     padding-right: 7.5px;
 }
+
+.left-small-screen-footer-icons a:hover {
+    color: #ccc7c5;
+}
+
