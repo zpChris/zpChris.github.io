@@ -2,19 +2,9 @@
 
 @font-face { font-family: Sailec; src: url('../fonts/sailec.otf'); } 
 
-/**
- * Colors in the form of classes that can be added and removed.
- */
-.dark-background-color {
-  background-color: #222120;
-}
-
-.light-background-color {
-  background-color: #FCFCFC;
-}
-
 body {
   margin: 0;
+  background-color: #222120;
   text-align: center;
   font-family: Sailec;
 }
@@ -23,6 +13,16 @@ body {
   padding: 35px 25px;
   text-align: left;
   display: inline-block;
+}
+
+#profile-photo {
+  width: 75px;
+  border-radius: 10px;
+  transition: width 0.5s ease;
+}
+
+#profile-photo:hover {
+  width: 200px;
 }
 
 #name {
