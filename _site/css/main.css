@@ -1,0 +1,78 @@
+/* I have to figure out how to scale this appropiately */
+
+@font-face { font-family: Sailec; src: url('../fonts/sailec.otf'); } 
+
+/**
+ * Colors in the form of classes that can be added and removed.
+ */
+.dark-background-color {
+  background-color: #222120;
+}
+
+.light-background-color {
+  background-color: #FCFCFC;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Sailec;
+}
+
+.homepage {
+  padding: 35px 25px;
+  text-align: left;
+  display: inline-block;
+}
+
+#name {
+  font-size: 15px;
+}
+
+#projects {
+  text-decoration: underline;
+}
+
+hr {
+  color: #7A8289;
+  border-color: #7A8289;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+p, li, a {
+  color: #7A8289;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.strong, .simple-link {
+  font-weight: 400;
+  color: #D0CCCA;
+}
+
+.simple-link {
+  text-decoration: none;
+  border-bottom: 1px solid #CCC7C500;
+  -webkit-transition: border 0.5s ease;
+  -moz-transition: border 0.5s ease;
+  -ms-transition: border 0.5s ease;
+  -o-transition: border 0.5s ease;
+  transition: border 0.5s ease; 
+}
+
+.simple-link:hover {
+  border-bottom: 1px solid #CCC7C5;
+}
+
+.left-small-screen-footer-icons a {
+  padding-right: 7.5px;
+}
+
+.left-small-screen-footer-icons a:hover {
+  color: #D0CCCA;
+}
